@@ -53,22 +53,22 @@ public class Configuration {
     }
 
     public Configuration() {
-        B_WIDTH = 400;
-        B_HEIGHT = 400;
-        SLIME_SIZE = 2500;
-        INITIAL_X = 250;
-        INITIAL_Y = 200;
-        SPEED = 1F;
+        B_WIDTH = 1000;
+        B_HEIGHT = 1000;
+        SLIME_SIZE = 100000;
+        INITIAL_X = 450;
+        INITIAL_Y = 450;
+        SPEED = 2F;
         STEP_TO_EVOLVE = 500;
-        TURN_ANGLE = 3F;
-        SIGHT = 50;
-        MAX_INTENSITY = 50;
+        TURN_ANGLE = 6F;
+        SIGHT = 100;
+        MAX_INTENSITY = 60;
         SHAPE = Shape.point;
         DENSITY = 2;
         RADIUS = 100;
-        COLOR = Color.BLUE;
+        COLOR = Color.WHITE;
         RANDOM_FACTOR = 60;
-        ANGLE_SPLIT = 12;
+        ANGLE_SPLIT = 2;
     }
 
 
